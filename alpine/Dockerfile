@@ -1,6 +1,6 @@
 FROM alpine:3.12
 
-ARG SCRAPY_VERSION=2.2.0
+ARG SCRAPY_VERSION=2.4.1
 
 RUN set -eux \
     && apk add --no-cache \
